@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap"
+      rel="stylesheet" />
+    <title>FileLaunch</title>
+    <link
+      rel="icon"
+      href="./public/images/filelaunch-website-favicon-color.png"
+      type="image/png" />
+  </head>
+  <body
+    class="container bg-darkerBlue font-marope min-h-screen flex flex-col gap-10">
+    <nav>
+      <img
+        class="w-[200px] pt-10"
+        src="./public/images/logo-no-background.png"
+        alt="FileLaunch logo" />
+    </nav>
+    <main class="grid items-center flex-grow mx-auto">
+      <div class="text-center flex flex-col gap-8">
+        <h1
+          class="max-w-[730px] mx-auto text-white font-extrabold text-3xl md:text-5xl">
+          Elevate your file sharing experience with FileLaunch
+        </h1>
+        <p class="max-w-[540px] text-gray mx-auto">
+          Embrace swift, seamless file transfers powered by your trusted cloud
+          storage services. FileLaunch is crafting a solution to revolutionize
+          file sharing, prioritizing speed, security, and intuitive design. Be
+          part of our journey. Sign up now and be among the first to get early
+          access when FileLaunch is ready to transform your workflow.
+        </p>
+        <div class="flex flex-col gap-8">
+          <h2 class="text-white font-extrabold text-2xl md:text-4xl">
+            Get early access when we launch
+          </h2>
+          <form
+            class="flex flex-col md:flex-row mx-auto gap-4"
+            action="https://submit-form.com/WHWhD3UE">
+            <label class="hidden" for="email">Email</label>
+            <input
+              class="bg-darkBlue py-3 px-6 rounded-full outline-none text-white focus:border focus:border-accent"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email address"
+              required="" />
+            <button
+              class="bg-accent outline-none px-4 py-3 rounded-full hover:bg-transparent border hover:text-white hover:border-accent transition-all duration-500"
+              type="submit">
+              Get early access
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
